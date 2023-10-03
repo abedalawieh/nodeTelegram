@@ -3,7 +3,7 @@ import { firstMessage } from "../messages.js";
 import { firstKeyboard } from "../keyboards.js";
 
 export const firstStart = () => {
-  const photo = "https://raw.githubusercontent.com/abedalawieh/nodeTelegram/main/assets/social-06.jpg";
+  const photo = "../assets/social-06.jpg";
   bot.on("message", (msg) => {
     console.log(msg.message_id);
     const chatId = msg.chat.id;
